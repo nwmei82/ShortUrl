@@ -1,0 +1,14 @@
+{
+  "name": "synerry-skilltest",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install": "npm install",
+    "build": "npm run build --workspaces",
+    "start": "npm start --workspaces"
+  },
+  "devDependencies": {}
+}
